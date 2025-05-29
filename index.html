@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>零信任架構與 AI 資安｜保護您的數位未來</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>🛡️ 零信任架構與 AI 資安</h1>
+                <p>保護您的數位未來，迎接智慧資安新時代</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">資安新挑戰</a></li>
+                    <li><a href="#zero-trust-overview">零信任詳解</a></li>
+                    <li><a href="#ai-role">AI 的雙面刃</a></li>
+                    <li><a href="#strengthen-zt">強化零信任</a></li>
+                    <li><a href="#conclusion">未來展望</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>告別傳統防禦，擁抱智慧安全</h2>
+                <p>雲端、遠距、BYOD 時代，傳統邊界防護已不足夠。零信任與 AI 為您打造主動、智慧的資安防線！</p>
+            </div>
+        </section>
+
+        <section id="intro" class="content-section">
+            <div class="container">
+                <h2>一、資安新挑戰與數位轉型</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3>資安威脅加劇</h3>
+                        <p>網路攻擊日益複雜，勒索軟體、APT 攻擊頻傳，傳統防禦模式面臨嚴峻考驗，逐漸失效。</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>企業數位轉型加速</h3>
+                        <p>雲端應用普及、遠距工作成為常態、員工自攜設備 (BYOD) 等新興工作模式，擴大了企業的攻擊面。</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>零信任理念興起</h3>
+                        <p>「永不預設信任，持續驗證」的零信任策略，成為應對無邊界資安環境的核心思維。</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>AI 對資安的雙重影響</h3>
+                        <p>AI 不僅能強化資安防禦能力，也可能被駭客利用來增強攻擊手段，帶來新的挑戰。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="zero-trust-overview" class="content-section alt-bg">
+            <div class="container">
+                <h2>二、零信任 (Zero Trust) 深度解析</h2>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <h3>1. 定義與背景</h3>
+                        <p>零信任是一種去邊界化的資安架構，核心理念是「預設不信任，持續驗證」。它強調在任何使用者或裝置存取企業資源前，都必須先進行嚴格的身份驗證與授權，特別適用於雲端、行動裝置及遠距工作等模糊邊界的環境。</p>
+                    </div>
+                    <div class="flex-item">
+                        <h3>2. 傳統資安模型的缺陷</h3>
+                        <p>傳統模型常預設內部網路可信，容易忽略來自內部的威脅。駭客可透過社交工程、釣魚郵件或惡意程式滲透內部網路，一旦進入，便如入無人之境。</p>
+                    </div>
+                </div>
+                <h3>3. 零信任三大核心原則</h3>
+                <ul class="feature-list">
+                    <li><strong>全面驗證 (Verify Explicitly)：</strong> 對所有存取請求，無論來源，皆需嚴格驗證身份、裝置狀態與存取權限。</li>
+                    <li><strong>最小權限原則 (Least Privilege Access)：</strong> 僅授予使用者或應用程式完成其任務所需的最低權限，並在必要時才提供。</li>
+                    <li><strong>持續監控與假設洩漏 (Assume Breach & Continuous Monitoring)：</strong> 持續監控網路活動與使用者行為，偵測潛在風險，並假設系統隨時可能已被入侵，以便即時調整安全策略。</li>
+                </ul>
+
+                <h3>零信任核心要素</h3>
+                <div class="grid-container tri-cols">
+                    <div class="grid-item card">
+                        <h4>身份驗證</h4>
+                        <p>實施多因素驗證 (MFA)、多重簽章機制，並進行精細的角色與權限控管。</p>
+                    </div>
+                    <div class="grid-item card">
+                        <h4>端點安全</h4>
+                        <p>部署 EDR/XDR 平台，監控設備狀態與異常行為，防止端點設備成為攻擊跳板。</p>
+                    </div>
+                    <div class="grid-item card">
+                        <h4>資料保護</h4>
+                        <p>進行資料分類與分級，實施加密與權限控管，並建立 DLP (資料洩漏防護) 機制。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-role" class="content-section">
+            <div class="container">
+                <h2>三、AI 在資安中的雙面角色：防禦與對抗</h2>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <h3>1. AI 強化資安防禦的應用</h3>
+                        <ul>
+                            <li><strong>UEBA (使用者與實體行為分析)：</strong> AI 學習正常行為模式，偵測異常活動，如異常登入、資料異常存取等。</li>
+                            <li><strong>威脅情報整合與預測：</strong> AI 能快速分析大量威脅情報，識別潛在攻擊模式，提前預警。</li>
+                            <li><strong>自動化風險反應：</strong> 針對偵測到的威脅，AI 可自動執行封鎖帳戶、隔離設備等應變措施。</li>
+                        </ul>
+                    </div>
+                    <div class="flex-item">
+                        <h3>2. AI 被用於惡意攻擊的方式</h3>
+                        <ul>
+                            <li><strong>AI 驅動的釣魚攻擊：</strong> AI 生成更自然、更具欺騙性的釣魚郵件或訊息，提高成功率。</li>
+                            <li><strong>惡意程式混淆與逃逸：</strong> AI 協助惡意程式變形、隱匿，躲避傳統資安軟體的偵測。</li>
+                            <li><strong>AI 生成仿冒特徵：</strong> AI 可能生成仿冒的登入憑證或設備特徵，試圖繞過驗證機制。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="strengthen-zt" class="content-section alt-bg">
+            <div class="container">
+                <h2>四、如何透過 AI 強化零信任機制？</h2>
+                <p>整合 AI 能力，我們可以從以下層面強化零信任架構的實踐：</p>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">驗證與權限控管層 (人與裝置)</button>
+                        <div class="accordion-content">
+                            <p><strong>多因素驗證 (MFA)：</strong> 結合生物辨識、一次性密碼 (TOTP)、硬體安全金鑰等。</p>
+                            <p><strong>裝置識別與風險評估：</strong> 透過 EDR/XDR 平台，評估裝置健康狀態與合規性。</p>
+                            <p><strong>最小權限 + 動態權限控管 (Just-In-Time Access)：</strong> 僅在需要時授予必要權限。</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">資料與服務存取層 (流動與存取)</button>
+                        <div class="accordion-content">
+                            <p><strong>資料分類與加密處理：</strong> 識別敏感資料，進行加密保護。</p>
+                            <p><strong>DLP + CASB：</strong> 透過資料外洩防護與雲端存取安全代理，防止未授權資料流通。</p>
+                            <p><strong>存取審計整合 SIEM：</strong> 即時分析存取日誌，回溯追蹤可疑活動。</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">AI 與風險預測層 (行為與威脅)</button>
+                        <div class="accordion-content">
+                            <p><strong>UEBA 行為分析：</strong> 運用 AI 偵測偏離常態的異常存取行為。</p>
+                            <p><strong>AI 驅動風險評級：</strong> 參考 NIST 零信任架構等標準，結合多方數據進行動態風險評估。</p>
+                            <p><strong>自動化響應策略設定：</strong> 根據風險等級，自動觸發隔離、封鎖等應變措施。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion" class="content-section">
+            <div class="container">
+                <h2>五、結論：邁向智慧資安新未來</h2>
+                <p>零信任不僅是一種技術部署，更是一種「<strong>動態、持續、智慧</strong>」的全面資安策略與運作機制。它要求企業整合人、裝置、網路、應用、資料，並結合 AI 的智慧分析與自動化能力，才能建構出現代化、真正有效的資安堡壘，從容應對未來層出不窮的資安挑戰。</p>
+                <p><strong>現在就開始規劃您的零信任與 AI 資安藍圖吧！</strong></p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
