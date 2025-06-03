@@ -102,4 +102,9 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.observe(el);
     });
 
+    const yearSpan = document.getElementById('currentYear');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    };
+
 });
